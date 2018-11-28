@@ -49,7 +49,7 @@
                     <p class="menu-label">General</p>
                     <ul class="menu-list">
                         <li><a class="is-active" href="/SharkToothCC/user/dashboard">Dashboard</a></li>
-                        <li><a href="/SharkToothCC/user/profile">Profile</a>
+                        <li><a href="profile.php">Profile</a>
                             <ul>
                                 <li><a href="/SharkToothCC/user/profile/edit">Edit Profile</a></li>
                                 <li><a href="/SharkToothCC/user/profile/changePassword">Change Password</a></li>
