@@ -9,11 +9,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
-<script type="text/javascript">
-    function validate(){
-        
-    }
-</script>
+<script type="text/javascript"></script>
 <title>Profile - MMS</title>
 </head>
 <body>
@@ -49,8 +45,9 @@
                     <p class="menu-label">General</p>
                     <ul class="menu-list">
                         <li><a href="dashboard.php">Dashboard</a></li>
-                        <li><a class="is-active" href="profile.php">Profile</a>
-                            <ul>
+                        <li id="menuProfile" style="display: inline-block;">Profile
+                            <ul id="ddProfile">
+                                <li><a class="is-active" href="profile.php">View Profile</a></li>
                                 <li><a href="/SharkToothCC/user/profile/edit">Edit Profile</a></li>
                                 <li><a href="/SharkToothCC/user/profile/changePassword">Change Password</a></li>
                             </ul></li>
@@ -91,11 +88,9 @@
                         <li><a>Block/Unblock User</a></li>
                         <li><a>User Access Settings</a></li>
                     </ul>
-
-                    
-
                 </aside>
-            </div>
+                </div>
+
                 <div class="column is-6 is-offset-1 has-text-centered">
                     <h3 class="title has-text-grey">User Profile</h3>
                     <div class="box ">
