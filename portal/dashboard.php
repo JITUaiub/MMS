@@ -1,4 +1,5 @@
 <?php include 'action/checkSession.php'; ?>
+<?php include 'action/getUser.php'; $user = getUser($_SESSION['loggedUser']);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@
         <div class="level-right">
             <div style="padding-top: 30px;">Logged In as &nbsp;</div>
             <a href="profile.php" style="padding-top: 30px;"
-                class="is-block is-primary is-large is-inverted"><b>${loggedUser.username }</b></a>
+                class="is-block is-primary is-large is-inverted"><b><?php echo $user['name']; ?></b></a>
             <div style="padding-top: 30px; padding-right: 60px;">
                 &nbsp;·&nbsp;<a href="logout.php">Log Out</a>
             </div>
