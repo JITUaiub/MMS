@@ -13,7 +13,7 @@
         
     }
 </script>
-<title>Login - MMS</title>
+<title>Dashboard - MMS</title>
 </head>
 <body>
     <!-- Top Menu -->

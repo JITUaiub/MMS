@@ -12,7 +12,7 @@
         
     }
 </script>
-<title>Login - MMS</title>
+<title>Activation - MMS</title>
 </head>
 <body>
     <!-- Top Menu -->
